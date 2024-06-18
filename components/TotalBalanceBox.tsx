@@ -1,5 +1,6 @@
 import AnimatedCounter from '@/components/AnimatedCounter'
 import React from 'react'
+import DoughnutChart from './DoughnutChart'
 
 const TotalBalanceBox = ({
     accounts = [], totalBanks, totalCurrentBalance
@@ -9,7 +10,9 @@ const TotalBalanceBox = ({
         
         {/* Doughnut chart */}
         <div className='total-balance-chart'>
-            Doughnut chart
+            <DoughnutChart 
+                accounts={accounts}
+            />
         </div>
 
         {/* Bank accounts */}

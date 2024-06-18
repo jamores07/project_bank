@@ -1,3 +1,4 @@
+import SideBar from "@/components/SideBar";
 
 
 export default async function RootLayout({
@@ -5,10 +6,14 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
+  const loggedIn = { firstName: 'John', lastName: 'Doe'}
 
   return (
     <main>
-        SIDEBAR 
+        <SideBar 
+            user={loggedIn}
+        />
         {children}
     </main>
   );
