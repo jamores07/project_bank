@@ -1,10 +1,10 @@
 # Horizon Banking Application
 
-## <a name="introduction">🤖 Introduction</a>
+## <a name="introduction"> Introduction</a>
 
 A proof of concept for a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.
 
-## <a name="features">🔋 Features</a>
+## <a name="features"> Features</a>
 
  **Authentication**: An ultra-secure SSR authentication with proper validations and authorization
 
@@ -24,7 +24,7 @@ A proof of concept for a financial SaaS platform that connects to multiple bank 
 
 and many more, including code architecture and reusability. 
 
-## <a name="snippets">🕸️ Snippets</a>
+## <a name="snippets">Code Snippets</a>
 
 <details>
     <summary><code>.env.example</code></summary>
